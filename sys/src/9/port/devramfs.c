@@ -14,6 +14,7 @@
 #include       "fns.h"
 #include	"../port/error.h"
 
+// Big blocksize to reduce fragmentation
 #define RAM_BLOCK_LEN 32768
 #define RAM_MAGIC 0xbedabb1e
 #define INVALID_FILE "Invalid ram file"
